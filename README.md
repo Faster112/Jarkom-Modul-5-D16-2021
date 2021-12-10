@@ -245,12 +245,6 @@ route add -net 0.0.0.0 netmask 0.0.0.0 gw 10.29.7.149
 
 **(D)** Set IP client menjadi **DHCP** dengan **Jipangu** sebagai DHCP servernya.
 (**catatan**: jalankan program pada jawaban [nomor 1](#nomor-1) terlebih dahulu)
-* Clients
-```
-auto eth0
-iface eth0 inet dhcp
-```
-
 * **Jipangu**
 
 Set nameserver pada `/etc/resolv.conf` ke **192.168.122.1** lalu install `isc-dhcp-server`
